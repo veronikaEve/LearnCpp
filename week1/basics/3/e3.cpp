@@ -11,8 +11,6 @@ using namespace std;
 
 int main()
 {
-    string name;
-    int ageInDays;
     int age;
 
     int *pAge = &age;
