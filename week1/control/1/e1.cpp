@@ -27,7 +27,7 @@ int main()
 
     for (int index = 0; index < 100; index++)
     {
-        scores[index] = rand() % 100;
+        scores[index] = rand() % 100; // this doesn't repeat values? 🤔
 
         if (0 <= scores[index] && scores[index] <= 40)
         {
@@ -52,3 +52,12 @@ int main()
     cout << "There are " << advanced << " advanced values" << endl;
     cout << "There are " << hardcore << " hardcore values" << endl;
 }
+
+/* Returned 
+
+There are 49 novice values
+There are 16 intermediate values
+There are 18 advanced values
+There are 17 hardcore values
+
+*/
