@@ -14,7 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="169851be-758f-4e8d-b148-22a8c3cd2db9" name="Changes" comment="">
+    <list default="true" id="169851be-758f-4e8d-b148-22a8c3cd2db9" name="Changes" comment="week3-e2 | On CLion - the issue was adding all files to CmakeList.txt">
       <change afterPath="$PROJECT_DIR$/.idea/2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
