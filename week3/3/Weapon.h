@@ -10,8 +10,8 @@ private:
     int rounds;
 
 public:
-    Weapon(int rounds);
-    ~Weapon();
+    Weapon(void);
+    ~Weapon(void);
 
     bool Fire();
     void Reload();

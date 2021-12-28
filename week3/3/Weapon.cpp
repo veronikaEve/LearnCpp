@@ -1,11 +1,11 @@
 #include "Weapon.h"
 
-Weapon::Weapon(int rounds) : rounds(rounds) {
+Weapon::Weapon(void) {
     rounds = 10;
 }
 
 bool Weapon::Fire() {
-    if (rounds) {
+    if (rounds != 0) {
         cout << "Firing Weapon 💥" << endl;
         rounds = rounds-1;
         return true;

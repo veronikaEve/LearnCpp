@@ -9,6 +9,6 @@ int main()
 //    myPerson.Stand();
 //    myPerson.Walk();
 
-    Soldier *mySoldier = new Soldier(new Weapon(0));
+    Soldier *mySoldier = new Soldier(new Weapon());
     mySoldier->FireWeapon();
 }
