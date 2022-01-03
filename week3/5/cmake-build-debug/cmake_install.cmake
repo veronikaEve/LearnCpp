@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/veronikaeve/Brainjuice/LearnCpp/week3/5&6/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/veronikaeve/Brainjuice/LearnCpp/week3/5/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
