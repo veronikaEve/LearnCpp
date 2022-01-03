@@ -15,6 +15,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fda2652b-2617-4ce1-b52f-60a63e8a2437" name="Changes" comment="week4 e2">
+      <change afterPath="$PROJECT_DIR$/../4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/GameObject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/GameObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../4/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
