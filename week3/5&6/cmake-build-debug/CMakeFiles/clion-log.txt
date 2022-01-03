@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /Users/veronikaeve/Brainjuice/LearnCpp/week3/5&6 Select CMakeLists.txt
