@@ -15,13 +15,13 @@
 ########################
 
 //Value Computed by CMake
-3_BINARY_DIR:STATIC=/Users/veronikaeve/Brainjuice/LearnCpp/week3/4/cmake-build-debug
+4_BINARY_DIR:STATIC=/Users/veronikaeve/Brainjuice/LearnCpp/week3/4/cmake-build-debug
 
 //Value Computed by CMake
-3_IS_TOP_LEVEL:STATIC=ON
+4_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-3_SOURCE_DIR:STATIC=/Users/veronikaeve/Brainjuice/LearnCpp/week3/4
+4_SOURCE_DIR:STATIC=/Users/veronikaeve/Brainjuice/LearnCpp/week3/4
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
@@ -225,7 +225,7 @@ CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
 CMAKE_CACHEFILE_DIR:INTERNAL=/Users/veronikaeve/Brainjuice/LearnCpp/week3/4/cmake-build-debug
 //Major version of cmake used to create the current loaded cache
-CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
+CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=21
 //Patch version of cmake used to create the current loaded cache
@@ -318,7 +318,7 @@ CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_READELF
 CMAKE_READELF-ADVANCED:INTERNAL=1
 //Path to CMake installation.
-CMAKE_ROOT:INTERNAL=/private/var/folders/p6/2sd27mdx44g90vh2sxlg7mbm0000gn/T/AppTranslocation/79BA6DE7-5E25-4C96-A650-49D73834E083/d/CLion.app/Contents/bin/cmake/mac/share/cmake-4.21
+CMAKE_ROOT:INTERNAL=/private/var/folders/p6/2sd27mdx44g90vh2sxlg7mbm0000gn/T/AppTranslocation/79BA6DE7-5E25-4C96-A650-49D73834E083/d/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
