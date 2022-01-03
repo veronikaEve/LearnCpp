@@ -1,5 +1,6 @@
 #include <iostream>
 #include "GameObject.h"
+#include "HealthKit.h"
 
 using namespace std;
 
@@ -21,5 +22,7 @@ int main() {
     obj4.location->Set(8,8,8);
     obj4.location->Display();
     obj6.location->Display();
+
+    HealthKit newHealthKit(100, new Location(9,9,9));
 
 }

@@ -90,6 +90,12 @@ build CMakeFiles/5andTheRest.dir/Location.cpp.o: CXX_COMPILER__5andTheRest_Debug
   OBJECT_DIR = CMakeFiles/5andTheRest.dir
   OBJECT_FILE_DIR = CMakeFiles/5andTheRest.dir
 
+build CMakeFiles/5andTheRest.dir/HealthKit.cpp.o: CXX_COMPILER__5andTheRest_Debug /Users/veronikaeve/Brainjuice/LearnCpp/week4/5andTheRest/HealthKit.cpp || cmake_object_order_depends_target_5andTheRest
+  DEP_FILE = CMakeFiles/5andTheRest.dir/HealthKit.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/5andTheRest.dir
+  OBJECT_FILE_DIR = CMakeFiles/5andTheRest.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 5andTheRest
@@ -98,7 +104,7 @@ build CMakeFiles/5andTheRest.dir/Location.cpp.o: CXX_COMPILER__5andTheRest_Debug
 #############################################
 # Link the executable 5andTheRest
 
-build 5andTheRest: CXX_EXECUTABLE_LINKER__5andTheRest_Debug CMakeFiles/5andTheRest.dir/main.cpp.o CMakeFiles/5andTheRest.dir/GameObject.cpp.o CMakeFiles/5andTheRest.dir/Location.cpp.o
+build 5andTheRest: CXX_EXECUTABLE_LINKER__5andTheRest_Debug CMakeFiles/5andTheRest.dir/main.cpp.o CMakeFiles/5andTheRest.dir/GameObject.cpp.o CMakeFiles/5andTheRest.dir/Location.cpp.o CMakeFiles/5andTheRest.dir/HealthKit.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/5andTheRest.dir
   POST_BUILD = :

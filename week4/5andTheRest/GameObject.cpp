@@ -9,6 +9,8 @@ GameObject::GameObject(int newId, Location *location) {
 id = newId;
 instances ++;
 GameObject::location = location;
+
+    cout << "GameObject Constructor Invoked"<< endl;
 }
 
 //Or
