@@ -14,6 +14,8 @@ public:
 
     ~GameObject();
     GameObject(int newId, Location *location);
+    GameObject (GameObject& obj);
+
 };
 
 

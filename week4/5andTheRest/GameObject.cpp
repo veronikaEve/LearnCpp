@@ -17,3 +17,7 @@ GameObject::location = location;
 //}
 
 GameObject::~GameObject() {}
+
+GameObject::GameObject(GameObject &obj) {
+    location = new Location(obj.location->x,obj.location->y,obj.location->z);
+}
