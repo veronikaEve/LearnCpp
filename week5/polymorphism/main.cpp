@@ -4,6 +4,21 @@
 #include "Car.h"
 #include "VehicleManager.h"
 
+using namespace std;
+
+ Vehicle** DamagedVehicles(Vehicle **vehicles,int *size){
+    // Weapon **unMounted = new Weapon*[*size];
+    Vehicle **damagedVehicles = new Vehicle*[*size];
+     int n = 0;
+     for (int i = 0; i < *size; ++i) {
+         if(vehicles[i]->damage >= 35){
+             damagedVehicles[n] = vehicles[i];
+             n++;         }
+     }
+     *size = n;
+     return damagedVehicles;
+}
+
 int main() {
 
 //    Vehicle V1(1,30);
@@ -26,11 +41,19 @@ int main() {
 //    }
 
     VehicleManager *vm = new VehicleManager(10);
-    vm->Add( new Car(1, 35));
+    vm->Add(new Car(1, 35));
     vm->Add(new Boat(2,55));
     vm->Add(new Vehicle(3,30));
     vm->Add(new Car(4,25));
     vm->Add(new Boat(5,65));
     vm->Display();
 
+    // Exercise 7
+    cout << "Damaged Vehicles " << endl;
+    int *count = new int(0);
+    *count = vm->GetCount();
+    Vehicle **damagedList = DamagedVehicles(vm->GetList(),count);
+    for(int n=0;n < *count;n++){
+        damagedList[n]->Display();
+    }
 }

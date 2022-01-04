@@ -11,6 +11,8 @@ public:
 
     Vehicle(int id, int damage);
     virtual void Display();
+
+    friend Vehicle** DamagedVehicles(Vehicle **, int *);
 };
 
 
