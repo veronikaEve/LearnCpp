@@ -1,0 +1,20 @@
+# ninja log v5
+1	23	1641294707333707521	CMakeFiles/polymorphism.dir/Car.cpp.o	4c3cc22462c190e9
+1	27	1641294707337540489	CMakeFiles/polymorphism.dir/Boat.cpp.o	fd879ebed9263ea
+0	237	1641294707547221034	CMakeFiles/polymorphism.dir/main.cpp.o	30e5ee2fc1cd71ae
+1	242	1641294707552568739	CMakeFiles/polymorphism.dir/Vehicle.cpp.o	e504639a7c900334
+242	280	1641294707591494123	polymorphism	9875e38ee92ff523
+2	212	1641294949322955986	CMakeFiles/polymorphism.dir/Vehicle.cpp.o	e504639a7c900334
+212	241	1641294949354064538	polymorphism	9875e38ee92ff523
+2	226	1641294981472577858	CMakeFiles/polymorphism.dir/Vehicle.cpp.o	e504639a7c900334
+226	256	1641294981503621606	polymorphism	9875e38ee92ff523
+1	219	1641294991181119571	CMakeFiles/polymorphism.dir/Vehicle.cpp.o	e504639a7c900334
+219	247	1641294991210632453	polymorphism	9875e38ee92ff523
+2	291	1641295410193397790	CMakeFiles/polymorphism.dir/main.cpp.o	30e5ee2fc1cd71ae
+2	303	1641295410204983085	CMakeFiles/polymorphism.dir/Vehicle.cpp.o	e504639a7c900334
+4	212	1641295496977229534	CMakeFiles/polymorphism.dir/Car.cpp.o	4c3cc22462c190e9
+4	212	1641295496977232492	CMakeFiles/polymorphism.dir/Boat.cpp.o	fd879ebed9263ea
+212	249	1641295497015834186	polymorphism	9875e38ee92ff523
+1	435	1641297626999281178	CMakeFiles/polymorphism.dir/Car.cpp.o	4c3cc22462c190e9
+1	188	1641297635774051462	CMakeFiles/polymorphism.dir/Boat.cpp.o	fd879ebed9263ea
+188	233	1641297635819644819	polymorphism	9875e38ee92ff523
