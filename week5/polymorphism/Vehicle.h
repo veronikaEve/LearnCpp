@@ -10,7 +10,7 @@ public:
     int id;
 
     Vehicle(int id, int damage);
-    void Display();
+    virtual void Display();
 };
 
 
