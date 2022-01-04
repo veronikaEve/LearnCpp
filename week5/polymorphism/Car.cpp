@@ -8,6 +8,6 @@ Car::Car(int id, int damage) : Vehicle(id, damage) {
 }
 
 void Car::Display() {
-    Vehicle::Display();
-//    cout << "id: " << id << " damage: " << damage  << endl;
+//    Vehicle::Display();
+    cout << "Car " << "id: " << id << endl;
 }
