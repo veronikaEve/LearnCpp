@@ -18,6 +18,9 @@ public:
 
     VehicleManager(int size);
     ~VehicleManager(void);
+
+    // Exercise 8
+    void DamagedVehicles();
 };
 
 

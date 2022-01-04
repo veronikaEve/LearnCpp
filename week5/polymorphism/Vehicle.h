@@ -13,6 +13,9 @@ public:
     virtual void Display();
 
     friend Vehicle** DamagedVehicles(Vehicle **, int *);
+
+    // Exercise 8
+    friend class VehicleManager;
 };
 
 

@@ -56,4 +56,6 @@ int main() {
     for(int n=0;n < *count;n++){
         damagedList[n]->Display();
     }
+
+    vm->DamagedVehicles();
 }

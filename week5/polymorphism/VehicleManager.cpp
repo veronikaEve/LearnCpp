@@ -34,3 +34,13 @@ VehicleManager::VehicleManager(int size):maxVehicles(size) {
 }
 
 VehicleManager::~VehicleManager(void) {}
+
+// Exercise 8
+void VehicleManager::DamagedVehicles(){
+    cout << "Damaged Vehicles beep boop " << endl;
+    for(int n=0;n < count;n++){
+        if (vehicles[n]->damage >= 35){
+            vehicles[n]->Display();
+        }
+    }
+}
