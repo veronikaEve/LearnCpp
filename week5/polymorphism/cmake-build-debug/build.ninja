@@ -96,6 +96,12 @@ build CMakeFiles/polymorphism.dir/Boat.cpp.o: CXX_COMPILER__polymorphism_Debug /
   OBJECT_DIR = CMakeFiles/polymorphism.dir
   OBJECT_FILE_DIR = CMakeFiles/polymorphism.dir
 
+build CMakeFiles/polymorphism.dir/VehicleManager.cpp.o: CXX_COMPILER__polymorphism_Debug /Users/veronikaeve/Brainjuice/LearnCpp/week5/polymorphism/VehicleManager.cpp || cmake_object_order_depends_target_polymorphism
+  DEP_FILE = CMakeFiles/polymorphism.dir/VehicleManager.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
+  OBJECT_DIR = CMakeFiles/polymorphism.dir
+  OBJECT_FILE_DIR = CMakeFiles/polymorphism.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target polymorphism
@@ -104,7 +110,7 @@ build CMakeFiles/polymorphism.dir/Boat.cpp.o: CXX_COMPILER__polymorphism_Debug /
 #############################################
 # Link the executable polymorphism
 
-build polymorphism: CXX_EXECUTABLE_LINKER__polymorphism_Debug CMakeFiles/polymorphism.dir/main.cpp.o CMakeFiles/polymorphism.dir/Vehicle.cpp.o CMakeFiles/polymorphism.dir/Car.cpp.o CMakeFiles/polymorphism.dir/Boat.cpp.o
+build polymorphism: CXX_EXECUTABLE_LINKER__polymorphism_Debug CMakeFiles/polymorphism.dir/main.cpp.o CMakeFiles/polymorphism.dir/Vehicle.cpp.o CMakeFiles/polymorphism.dir/Car.cpp.o CMakeFiles/polymorphism.dir/Boat.cpp.o CMakeFiles/polymorphism.dir/VehicleManager.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0
   OBJECT_DIR = CMakeFiles/polymorphism.dir
   POST_BUILD = :

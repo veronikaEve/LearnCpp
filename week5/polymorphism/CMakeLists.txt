@@ -3,4 +3,4 @@ project(polymorphism)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(polymorphism main.cpp Vehicle.cpp Vehicle.h Car.cpp Car.h Boat.cpp Boat.h)
+add_executable(polymorphism main.cpp Vehicle.cpp Vehicle.h Car.cpp Car.h Boat.cpp Boat.h VehicleManager.cpp VehicleManager.h)
