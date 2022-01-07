@@ -1,0 +1,10 @@
+#ifndef OOP_REVISION_SPELLSWORDS_H
+#define OOP_REVISION_SPELLSWORDS_H
+
+
+class Spellswords {
+
+};
+
+
+#endif //OOP_REVISION_SPELLSWORDS_H

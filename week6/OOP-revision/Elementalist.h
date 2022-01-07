@@ -1,0 +1,10 @@
+#ifndef OOP_REVISION_ELEMENTALIST_H
+#define OOP_REVISION_ELEMENTALIST_H
+
+
+class Elementalist {
+
+};
+
+
+#endif //OOP_REVISION_ELEMENTALIST_H
