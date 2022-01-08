@@ -13,11 +13,13 @@ Wizard::Wizard(string name, int knowledge, int skill, int maxMagic):name(name),k
 void Wizard::AddMagic(Magic *magic) {
 		magicInventory[magicCount] = magic;
 		magicCount++;
+
+		// magicInventory[magicCount++] = magic;
+		// ^^ This works??
 }
 
 void Wizard::Display() {
 	cout << "knowledge: " << knowledge << endl;
-	cout << "magicCount: " << magicCount << endl;
 	cout << "name: " << name << endl;
 	cout << "skill: " << skill << endl;
 

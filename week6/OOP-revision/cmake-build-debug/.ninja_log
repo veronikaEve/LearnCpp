@@ -1,0 +1,12 @@
+# ninja log v5
+1	554	1641655771069323089	CMakeFiles/OOP_revision.dir/main.cpp.o	d38fedb7321d5885
+1	558	1641655771072721483	CMakeFiles/OOP_revision.dir/Magic.cpp.o	e2171d4d8ae24f91
+1	559	1641655771070286041	CMakeFiles/OOP_revision.dir/Potion.cpp.o	66607647a46267e5
+1	574	1641655771092268396	CMakeFiles/OOP_revision.dir/Elementalist.cpp.o	f8083826417d3492
+1	577	1641655771094851171	CMakeFiles/OOP_revision.dir/Spell.cpp.o	ae879c9a71f9b75a
+3	580	1641655771097821651	CMakeFiles/OOP_revision.dir/Wizard.cpp.o	9ef2ceb8ca45ad5a
+2	581	1641655771098331356	CMakeFiles/OOP_revision.dir/Transformation.cpp.o	22d5d30e3f9b7ba
+2	590	1641655771108348290	CMakeFiles/OOP_revision.dir/Spellswords.cpp.o	337f2fa7f122eec6
+590	638	1641655771157696132	OOP_revision	4f417eb0382dc235
+2	221	1641655856332308965	CMakeFiles/OOP_revision.dir/Wizard.cpp.o	9ef2ceb8ca45ad5a
+221	249	1641655856361258608	OOP_revision	4f417eb0382dc235

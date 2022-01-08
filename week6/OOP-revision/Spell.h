@@ -6,8 +6,6 @@
 class Spell: public Magic {
 private:
 	string words;
-public:
-	Spell(const string &words);
 
 public:
 	~Spell();
