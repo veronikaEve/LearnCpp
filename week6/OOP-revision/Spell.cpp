@@ -9,7 +9,6 @@ Spell::Spell(string spellWords):words(spellWords) {
 }
 
 void Spell::Display() {
-	Magic::Display();
 	cout << "Spell Words: " << words << endl;
 }
 
