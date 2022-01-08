@@ -8,6 +8,3 @@ Magic::Magic() {
 
 }
 
-void Magic::Display() {
-
-}

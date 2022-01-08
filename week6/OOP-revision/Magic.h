@@ -11,7 +11,8 @@ public:
 	~Magic();
 
 	Magic();
-	void Display();
+	virtual void Display() = 0;
+	// The = 0 indicates that there is no definition and as a consequence of this objects can’t be instantiated from this class.
 };
 
 
