@@ -12,17 +12,19 @@ Elementalist::Elementalist(string name, int knowledge, int skill, int maxMagic, 
 
 void Elementalist::Display() {
 	Wizard::Display();
-	cout << "Specialist Element: " << ends;
+	cout << "Specialist Element: ";
 	switch (specialism) {
 		case earth:
 			cout << "Earth" << endl;
+			break;
 		case wind:
 			cout << "Wind" << endl;
+			break;
 		case fire:
 			cout << "Fire" << endl;
+			break;
 		case water:
 			cout << "Water" << endl;
-		default:
-			cout << "Default output" << endl;
+			break;
 	}
 }

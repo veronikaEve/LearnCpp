@@ -18,7 +18,7 @@ public:
 
 	Wizard(string name,int knowledge, int skill, int maxMagic);
 	void AddMagic(Magic* magic);
-	void Display();
+	virtual void Display();
 };
 
 
