@@ -19,11 +19,13 @@ void Wizard::AddMagic(Magic *magic) {
 }
 
 void Wizard::Display() {
-	cout << "knowledge: " << knowledge << endl;
 	cout << "name: " << name << endl;
+	cout << "knowledge: " << knowledge << endl;
 	cout << "skill: " << skill << endl;
 
 	for (int i = 0; i < magicCount ; ++i) {
 		this->magicInventory[i]->Display();
 	}
+
+	cout << endl;
 }
