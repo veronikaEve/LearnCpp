@@ -1,3 +1,5 @@
 # ninja log v5
 0	435	1641742627866292299	CMakeFiles/FunctionPointersAndTemplates.dir/main.cpp.o	e4e5d5ede5cdc293
 435	479	1641742627913133085	FunctionPointersAndTemplates	a5f70346a51a217
+2	448	1641743391944815613	CMakeFiles/FunctionPointersAndTemplates.dir/main.cpp.o	e4e5d5ede5cdc293
+448	492	1641743391991691190	FunctionPointersAndTemplates	a5f70346a51a217

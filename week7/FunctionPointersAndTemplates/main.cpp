@@ -1,11 +1,17 @@
 #include <iostream>
 
+using namespace std;
+
 void HelloMessage() {
-	std::cout << "Hello" << std::endl;
+	cout << "Hello" << endl;
 }
 
 void Goodbye() {
-	std::cout << "Goodbye" << std::endl;
+	cout << "Goodbye" << endl;
+}
+
+void Message(const string param){
+	cout << param << endl;
 }
 
 int main() {
@@ -14,4 +20,9 @@ int main() {
 	message();
 	message=Goodbye;
 	message();
+
+	void(*newMessage)(string);
+	newMessage=Message;
+	newMessage("Bunny");
+
 }
