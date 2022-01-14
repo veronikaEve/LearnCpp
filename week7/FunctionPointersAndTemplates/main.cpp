@@ -58,10 +58,16 @@ int main() {
 //	Sort(numbers,9, sortType);
 
 	static GameObject newGameObject(1234, 10, 20, 30);
+
 	void (GameObject::*draw)();
 	draw = &GameObject::Draw;
-
 	(newGameObject.*draw)();
 
+	int *(GameObject::*move)(int, int, int);
+	move = &GameObject::Move;
+	int *newPosition = (newGameObject.*move)(1,2,3);
+	for (int i = 0; i < 3; ++i) {
+		cout << newPosition[i] << endl;
+	}
 
 }

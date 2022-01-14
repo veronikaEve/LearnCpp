@@ -12,8 +12,8 @@ void GameObject::Draw() {
 }
 
 int *GameObject::Move(int x, int y, int z) {
-	position[0] = x;
-	position[1] = y;
-	position[2] = z;
+	position[0] += x;
+	position[1] += y;
+	position[2] += z;
 	return position;
 }
