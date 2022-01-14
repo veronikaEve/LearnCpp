@@ -4,16 +4,17 @@
 #include <iostream>
 using namespace std;
 
+template <class T>
 class GameObject {
 private:
 	int id;
-	int position[3];
+	T position[3];
 
 public:
-	GameObject(int id, int x, int y, int z);
+	GameObject(int id, T x, T y, T z);
 
 	void Draw();
-	int *Move(int x, int y, int z);
+	int *Move(T x, T y, T z);
 
 };
 

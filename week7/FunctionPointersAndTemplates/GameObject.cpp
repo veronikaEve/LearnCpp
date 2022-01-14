@@ -1,17 +1,18 @@
 #include "GameObject.h"
-
-GameObject::GameObject(int id, int x, int y, int z) :id(id) {
+template<class T>
+GameObject<T>::GameObject(int id, T x, T y, T z) :id(id) {
 	position[0] = x;
 	position[1] = y;
 	position[2] = z;
 
 }
-
-void GameObject::Draw() {
+template<class T>
+void GameObject<T>::Draw() {
 	cout << "GameObject " << GameObject::id << endl;
 }
 
-int *GameObject::Move(int x, int y, int z) {
+template<class T>
+int *GameObject<T>::Move(T x, T y, T z) {
 	position[0] += x;
 	position[1] += y;
 	position[2] += z;

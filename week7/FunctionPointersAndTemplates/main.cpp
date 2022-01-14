@@ -91,13 +91,21 @@ int main() {
 //	}
 
 	// FUNCTION TEMPLATE
-int newArray[9] = {5,6,7,8,9,10,11,12,13};
-	DisplayArray<int>(newArray, 9);
+//int newArray[9] = {5,6,7,8,9,10,11,12,13};
+//	DisplayArray<int>(newArray, 9);
+//
+//float newestArray[9] = {5.1,6.1,7.1,8.1,9.1,10.1,11.1,12.1,13.1};
+//	DisplayArray<float>(newestArray, 9);
+//
+//	cout << SumArray<int>(newArray, 9) <<endl;
+//	cout << SumArray<float>(newestArray, 9) << endl;
 
-float newestArray[9] = {5.1,6.1,7.1,8.1,9.1,10.1,11.1,12.1,13.1};
-	DisplayArray<float>(newestArray, 9);
+GameObject<int>intTemplateObject(000, 10, 20, 30);
+intTemplateObject.Move(1,2,3);
+intTemplateObject.Draw();
 
-	cout << SumArray<int>(newArray, 9) <<endl;
-	cout << SumArray<float>(newestArray, 9) << endl;
+GameObject<float>floatTemplateObject(001, 10.1, 20.1, 30.1);
+floatTemplateObject.Move(1.1, 2.2, 3.3);
+floatTemplateObject.Draw();
 
 }
