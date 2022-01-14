@@ -1,4 +1,5 @@
 #include <iostream>
+#include "GameObject.h"
 
 using namespace std;
 
@@ -36,25 +37,31 @@ bool Descending(int nX, int nY) {
 }
 
 int main() {
-	void(*message)();
-	message=HelloMessage;
-	message();
-	message=Goodbye;
-	message();
+//	void(*message)();
+//	message=HelloMessage;
+//	message();
+//	message=Goodbye;
+//	message();
+//
+//	void(*newMessage)(string);
+//	newMessage=Message;
+//	newMessage("Bunny");
+//
+//	int numbers[9] ={ 3, 7, 9, 5, 6, 1, 8, 2, 4 };
+//
+//	bool (*sortType)(int, int);
+//
+//	sortType = Ascending;
+//	Sort(numbers,9, sortType);
+//
+//	sortType = Descending;
+//	Sort(numbers,9, sortType);
 
-	void(*newMessage)(string);
-	newMessage=Message;
-	newMessage("Bunny");
+	static GameObject newGameObject(1234, 10, 20, 30);
+	void (GameObject::*draw)();
+	draw = &GameObject::Draw;
 
-	int numbers[9] ={ 3, 7, 9, 5, 6, 1, 8, 2, 4 };
-
-	bool (*sortType)(int, int);
-
-	sortType = Ascending;
-	Sort(numbers,9, sortType);
-
-	sortType = Descending;
-	Sort(numbers,9, sortType);
+	(newGameObject.*draw)();
 
 
 }

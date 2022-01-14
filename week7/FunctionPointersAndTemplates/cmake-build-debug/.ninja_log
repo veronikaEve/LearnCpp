@@ -1,3 +1,8 @@
 # ninja log v5
 1	535	1642156491758040904	CMakeFiles/FunctionPointersAndTemplates.dir/main.cpp.o	e4e5d5ede5cdc293
 535	587	1642156491812228899	FunctionPointersAndTemplates	a5f70346a51a217
+2	496	1642179126952315232	CMakeFiles/FunctionPointersAndTemplates.dir/main.cpp.o	e4e5d5ede5cdc293
+3	496	1642179126951569405	CMakeFiles/FunctionPointersAndTemplates.dir/GameObject.cpp.o	82769976f0899eb4
+496	548	1642179127006698672	FunctionPointersAndTemplates	b7df2374cc7a7584
+1	246	1642179138255024034	CMakeFiles/FunctionPointersAndTemplates.dir/main.cpp.o	e4e5d5ede5cdc293
+246	277	1642179138287347042	FunctionPointersAndTemplates	b7df2374cc7a7584
