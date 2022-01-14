@@ -3,4 +3,4 @@ project(FunctionPointersAndTemplates)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(FunctionPointersAndTemplates main.cpp)
+add_executable(FunctionPointersAndTemplates main.cpp GameObject.cpp GameObject.h)
