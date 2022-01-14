@@ -43,6 +43,17 @@ Temp DisplayArray(Temp * arrayPointer, Temp sizeOfArray) {
 	}
 }
 
+template <typename Temp>
+Temp SumArray(Temp * arrayPointer, int sizeOfArray){
+	Temp sumOfArray = 0;
+	//Initialising this to 0 got rid of the issue of the function returning the pointer and not the actual value
+	for (int i = 0; i < sizeOfArray; ++i) {
+		sumOfArray += arrayPointer[i];
+	}
+	return sumOfArray;
+}
+
+
 int main() {
 	// FUNCTION POINTERS
 //	void(*message)();
@@ -85,5 +96,8 @@ int newArray[9] = {5,6,7,8,9,10,11,12,13};
 
 float newestArray[9] = {5.1,6.1,7.1,8.1,9.1,10.1,11.1,12.1,13.1};
 	DisplayArray<float>(newestArray, 9);
+
+	cout << SumArray<int>(newArray, 9) <<endl;
+	cout << SumArray<float>(newestArray, 9) << endl;
 
 }
