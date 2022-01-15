@@ -100,12 +100,19 @@ int main() {
 //	cout << SumArray<int>(newArray, 9) <<endl;
 //	cout << SumArray<float>(newestArray, 9) << endl;
 
-GameObject<int>intTemplateObject(000, 10, 20, 30);
-intTemplateObject.Move(1,2,3);
-intTemplateObject.Draw();
+GameObject<int> intTemplateObject(000, 10, 20, 30);
+	void (GameObject<int>::*draw)();
+	draw = &GameObject<int>::Draw;
+	(intTemplateObject.*draw)();
 
-GameObject<float>floatTemplateObject(001, 10.1, 20.1, 30.1);
-floatTemplateObject.Move(1.1, 2.2, 3.3);
-floatTemplateObject.Draw();
+	int *(GameObject<int>::*move)(int, int, int);
+	move = &GameObject<int>::Move;
+	int *newPosition = (intTemplateObject.*move)(1,2,3);
+	for (int i = 0; i < 3; ++i) {
+		cout << newPosition[i] << endl;
+	}
+
+// GameObject<float>floatTemplateObject(001, 10.1, 20.1, 30.1);
+// ... rest
 
 }

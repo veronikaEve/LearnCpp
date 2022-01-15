@@ -14,9 +14,7 @@ public:
 	GameObject(int id, T x, T y, T z);
 
 	void Draw();
-	int *Move(T x, T y, T z);
-
+	T *Move(T x, T y, T z);
 };
-
 
 #endif //FUNCTIONPOINTERSANDTEMPLATES_GAMEOBJECT_H

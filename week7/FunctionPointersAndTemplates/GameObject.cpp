@@ -6,13 +6,14 @@ GameObject<T>::GameObject(int id, T x, T y, T z) :id(id) {
 	position[2] = z;
 
 }
+
 template<class T>
 void GameObject<T>::Draw() {
-	cout << "GameObject " << GameObject::id << endl;
+	cout << "GameObject " << GameObject<T>::id << endl;
 }
 
 template<class T>
-int *GameObject<T>::Move(T x, T y, T z) {
+T *GameObject<T>::Move(T x, T y, T z) {
 	position[0] += x;
 	position[1] += y;
 	position[2] += z;
