@@ -3,4 +3,4 @@ project(Exceptions)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Exceptions main.cpp Weapon.h)
+add_executable(Exceptions main.cpp Weapon.h NoAmmoException.h)

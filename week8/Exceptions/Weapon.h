@@ -2,6 +2,8 @@
 #define EXCEPTIONS_WEAPON_H
 
 #include <iostream>
+#include "NoAmmoException.h"
+
 using namespace std;
 
 class Weapon {
@@ -9,6 +11,7 @@ private:
 	int rounds;
 	bool jammed;
 
+	NoAmmoException ENoAmmo;
 public:
 	Weapon() {
 		rounds = 0;
@@ -16,7 +19,7 @@ public:
 
 	void Fire() {
 		if (rounds < 1)
-			throw (1);
+			throw (ENoAmmo);
 		cout << "Weapon Fired\n" << endl;
 		rounds--;
 	}
