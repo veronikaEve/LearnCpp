@@ -4,6 +4,7 @@
 #include <iostream>
 #include "NoAmmoException.h"
 #include "MagazineFullException.h"
+#include "JammedException.h"
 
 using namespace std;
 
@@ -14,14 +15,16 @@ private:
 
 	NoAmmoException ENoAmmo;
 	MagazineFullException EMagFull;
+	JammedException EJammed;
 public:
 	Weapon() {
 		rounds = 0;
+		jammed = true;
 	}
 
 	void Fire() {
-		if (rounds < 1)
-			throw (ENoAmmo);
+		if (jammed) throw (EJammed);
+		if (rounds < 1) throw (ENoAmmo);
 		cout << "Weapon Fired\n" << endl;
 		rounds--;
 	}
