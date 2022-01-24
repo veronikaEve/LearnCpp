@@ -1,4 +1,4 @@
-# Install script for directory: /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions
+# Install script for directory: /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

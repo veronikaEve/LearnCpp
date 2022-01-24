@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug/
+cmake_ninja_workdir = /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions -B/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug
+  COMMAND = cd /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions -B/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,7 +72,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_Exceptions: phony || CMakeFiles/Exceptions.dir
 
-build CMakeFiles/Exceptions.dir/main.cpp.o: CXX_COMPILER__Exceptions_Debug /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/main.cpp || cmake_object_order_depends_target_Exceptions
+build CMakeFiles/Exceptions.dir/main.cpp.o: CXX_COMPILER__Exceptions_Debug /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/main.cpp || cmake_object_order_depends_target_Exceptions
   DEP_FILE = CMakeFiles/Exceptions.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=12.0 -std=gnu++14
   OBJECT_DIR = CMakeFiles/Exceptions.dir
@@ -103,7 +103,7 @@ build Exceptions: CXX_EXECUTABLE_LINKER__Exceptions_Debug CMakeFiles/Exceptions.
 # =============================================================================
 
 #############################################
-# Folder: /Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug
+# Folder: /Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug
 
 build all: phony Exceptions
 

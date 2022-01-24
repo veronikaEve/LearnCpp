@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "NoAmmoException.h"
+#include "MagazineFullException.h"
 
 using namespace std;
 
@@ -12,6 +13,7 @@ private:
 	bool jammed;
 
 	NoAmmoException ENoAmmo;
+	MagazineFullException EMagFull;
 public:
 	Weapon() {
 		rounds = 0;
@@ -25,10 +27,13 @@ public:
 	}
 
 	void Reload() {
-		rounds += 10;
-		if (rounds > 10)
-			rounds = 10;
-		cout << "Weapon Reloaded \n" << endl;
+		if (rounds >= 10) {
+			throw (EMagFull);
+		} else {
+			cout << "Weapon Reloaded \n" << endl;
+			rounds += 10;
+			if (rounds > 10) rounds = 10;
+		}
 	}
 };
 

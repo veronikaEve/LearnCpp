@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug"
+			"value" : "/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -1087,7 +1087,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions/cmake-build-debug"
+			"value" : "/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions/cmake-build-debug"
 		},
 		{
 			"name" : "Exceptions_IS_TOP_LEVEL",
@@ -1111,7 +1111,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/veronikaeve/Brainjuice/LearnCpp/week8/Exceptions"
+			"value" : "/Users/veronikaeve/Brainjuice/LearnCPP/week8/Exceptions"
 		}
 	],
 	"kind" : "cache",
