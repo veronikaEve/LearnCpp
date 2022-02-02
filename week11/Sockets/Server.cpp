@@ -39,7 +39,7 @@ int main()
     inet_pton(AF_INET, address.c_str(), &service.sin_addr);
 
 
-    if (bind(sock, (sockaddr*)&service, sizeof(service)) == -1)
+    if (::bind(sock, (sockaddr*)&service, sizeof(service)) == -1)
         cout << "bind() failed: " << endl;
     else
         cout << "bind() successful" << endl;
